@@ -41,6 +41,10 @@ module.exports = State.extend({dataTypes: JIDMixin.dataTypes}, {
         lastSentMessageID: 'string'
     },
 
+    generateId: function (attrs) {
+        return attrs.jid.full || attrs.jid;
+    },
+
     derived: {
         id: {
             deps: ['jid'],
