@@ -19,6 +19,8 @@ module.exports = State.extend({dataTypes: JIDMixin.dataTypes}, {
                 ''
             ]
         },
+        name: 'string',
+        nick: 'string',
         status: 'string',
         priority: ['number', true, 0],
         avatarID: 'string',

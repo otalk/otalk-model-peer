@@ -21,6 +21,8 @@ $ npm install otalk-model-peer
 - `jid` - `{JID}`
 - `lastSentMessageID` - `{String}`
 - `messages` - `{Collection}`
+- `name` - `{String}`
+- `nick` - `{String}`
 - `offline` - `{Boolean}`
 - `online` - `{Boolean}`
 - `priority` - `{Number}`
